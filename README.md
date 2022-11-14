@@ -13,6 +13,7 @@ h2 database
 
 
 ## API DOCS
+
 ```
-서버 실행 이후 localhost:8080/swagger-ui.html
+https://jinwapp.gitbook.io/project-of-artinus-1/
 ```
