@@ -7,14 +7,6 @@ import java.time.LocalDateTime;
 
 @Getter
 @AllArgsConstructor
-public class MemberResponseDto {
-
-    private long memberId;
-
+public class GetMemberResponseDto {
     private String email;
-
-    private LocalDateTime creationDate;
-
-    private LocalDateTime lastEditDate;
-
 }

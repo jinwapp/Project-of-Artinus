@@ -5,7 +5,6 @@ import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import org.springframework.stereotype.Service;
 
 import javax.persistence.Column;
 import javax.persistence.EntityListeners;
@@ -17,11 +16,11 @@ import java.time.LocalDateTime;
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 public abstract class Auditable {
-
     @CreatedDate
     @Column(updatable = false)
     private LocalDateTime creationDate;
 
     @LastModifiedDate
     private LocalDateTime lastEditDate;
+
 }

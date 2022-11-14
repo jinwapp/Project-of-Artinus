@@ -1,12 +1,4 @@
 spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
----
-spring:
-  config:
-    activate:
-      on-profile: local
   h2:
     console:
       enabled: true
@@ -15,18 +7,12 @@ spring:
     url: jdbc:h2:mem:test
   jpa:
     hibernate:
-      ddl-auto: create  # (1) ??? ?? ??
-    show-sql: true      # (2) SQL ?? ??
+      ddl-auto: create-drop
+    show-sql: true
     properties:
       hibernate:
-        format_sql: true  # (3) SQL pretty print
-logging:
-  level:
-    org:
-      springframework:
-        orm:
-          jpa: DEBUG
-server:
-  servlet:
-    encoding:
-      force-response: true
+        format_sql: true
+    open-in-view: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
