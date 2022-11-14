@@ -14,8 +14,8 @@ h2 database
 
 ## API DOCS
 
-[[API]Project-of-Artinus](https://jinwapp.gitbook.io/project-of-artinus-1/)
+[[API] Project-of-Artinus](https://jinwapp.gitbook.io/project-of-artinus-1/)
 
 ## Requirement & Answer
-[[Requirement & Answer]Project-of-Artinus]([https://jinwapp.gitbook.io/project-of-artinus-1/](https://jinwapp.notion.site/Requirement-Answer-PROJECT-OF-ARTINUS-09fb32ac7ac24fecb8b3ccac31adf403))
+[[Requirement & Answer] Project-of-Artinus](https://jinwapp.notion.site/Requirement-Answer-PROJECT-OF-ARTINUS-09fb32ac7ac24fecb8b3ccac31adf403)
 
